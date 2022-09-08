@@ -3,63 +3,63 @@ canvas: "https://digital.blb-karlsruhe.de/i3f/v20/2670316/canvas/2530205"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Die Verbreitung der Grippe, insbesondere in Karlsruhe. \u2014 7.2.1922 \u2014 Teil 2",
-            "purpose": "bookmarking",
-            "creator": {
-                "id": "Mela",
-                "name": "Mela Eckenfels"
-            },
             "created": "2022-09-08T03:20:40.840Z",
-            "modified": "2022-09-08T03:20:45.958Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "influenza",
             "creator": {
                 "id": "Mela",
                 "name": "Mela Eckenfels"
             },
-            "created": "2022-09-08T03:20:50.744Z"
+            "modified": "2022-09-08T03:33:06.886Z",
+            "purpose": "bookmarking",
+            "type": "TextualBody",
+            "value": "Die Verbreitung der Grippe, insbesondere in Karlsruhe. \u2014 7.2.1922 \u2014 Karlsruher Tagblatt \u2014 Teil 2"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "karlsruhe",
+            "created": "2022-09-08T03:20:50.744Z",
             "creator": {
                 "id": "Mela",
                 "name": "Mela Eckenfels"
             },
-            "created": "2022-09-08T03:20:52.486Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "influenza"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "1922",
+            "created": "2022-09-08T03:20:52.486Z",
             "creator": {
                 "id": "Mela",
                 "name": "Mela Eckenfels"
             },
-            "created": "2022-09-08T03:20:54.915Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "karlsruhe"
+        },
+        {
+            "created": "2022-09-08T03:20:54.915Z",
+            "creator": {
+                "id": "Mela",
+                "name": "Mela Eckenfels"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "1922"
         }
     ],
+    "id": "277a290d-317e-438f-b52e-d5a8fcfc5622.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://digital.blb-karlsruhe.de/i3f/v20/2670316/canvas/2530205",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=928.19677734375,492.8045959472656,908.048095703125,3573.8182067871094"
-        },
         "dcterms:isPartOf": {
             "id": "https://digital.blb-karlsruhe.de/i3f/v20/2670316/manifest",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=928.19677734375,492.8045959472656,908.048095703125,3573.8182067871094"
+        },
+        "source": "https://digital.blb-karlsruhe.de/i3f/v20/2670316/canvas/2530205"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "277a290d-317e-438f-b52e-d5a8fcfc5622.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
