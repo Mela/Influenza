@@ -3,5 +3,12 @@
 {
     "label": "Influenza",
     "type": "storyboardlist",
-    "items": []
+    "items": [
+        {
+            "board": "<iiif-annotation annotationurl='https://mela.github.io/Influenza/annotations/i3f-v20-2670316-2530205-list.json'></iiif-annotation>",
+            "title": "Die Verbreitung der Grippe, insbesondere in Karlsruhe. \u2014 7.2.1922 ",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
 }
