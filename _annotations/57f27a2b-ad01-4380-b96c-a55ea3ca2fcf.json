@@ -3,54 +3,56 @@ canvas: "https://digital.blb-karlsruhe.de/i3f/v20/2670316/canvas/2530205"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Die Verbreitung der Grippe, insbesondere in Karlsruhe. \u2014 7.2.1922 \u2014 Teil 1",
-            "purpose": "bookmarking",
-            "creator": {
-                "id": "Mela",
-                "name": "Mela Eckenfels"
-            },
             "created": "2022-09-08T03:19:17.879Z",
-            "modified": "2022-09-08T03:20:01.340Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "influenza",
             "creator": {
                 "id": "Mela",
                 "name": "Mela Eckenfels"
             },
-            "created": "2022-09-08T03:20:05.983Z"
+            "modified": "2022-09-08T03:32:52.989Z",
+            "purpose": "bookmarking",
+            "type": "TextualBody",
+            "value": "Die Verbreitung der Grippe, insbesondere in Karlsruhe. \u2014 7.2.1922 \u2014 Karlsruher Tagblatt \u2014 Teil 1"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "karlsruhe",
+            "created": "2022-09-08T03:20:05.983Z",
             "creator": {
                 "id": "Mela",
                 "name": "Mela Eckenfels"
             },
-            "created": "2022-09-08T03:20:07.892Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "influenza"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "1922",
+            "created": "2022-09-08T03:20:07.892Z",
             "creator": {
                 "id": "Mela",
                 "name": "Mela Eckenfels"
             },
-            "created": "2022-09-08T03:20:11.320Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "karlsruhe"
         },
         {
-            "purpose": "geotagging",
-            "type": "Feature",
+            "created": "2022-09-08T03:20:11.320Z",
+            "creator": {
+                "id": "Mela",
+                "name": "Mela Eckenfels"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "1922"
+        },
+        {
+            "created": "2022-09-08T03:20:19.867Z",
+            "creator": {
+                "id": "Mela",
+                "name": "Mela Eckenfels"
+            },
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -4398,29 +4400,27 @@ order: 1
                             48.9898548
                         ]
                     ]
-                ]
+                ],
+                "type": "Polygon"
             },
+            "purpose": "geotagging",
             "source": "https://www.openstreetmap.org/relation/62518",
-            "creator": {
-                "id": "Mela",
-                "name": "Mela Eckenfels"
-            },
-            "created": "2022-09-08T03:20:19.867Z"
+            "type": "Feature"
         }
     ],
+    "id": "57f27a2b-ad01-4380-b96c-a55ea3ca2fcf.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://digital.blb-karlsruhe.de/i3f/v20/2670316/canvas/2530205",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=26.634672164916992,544.6930541992188,921.0202960968018,5117.499816894531"
-        },
         "dcterms:isPartOf": {
             "id": "https://digital.blb-karlsruhe.de/i3f/v20/2670316/manifest",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=26.634672164916992,544.6930541992188,921.0202960968018,5117.499816894531"
+        },
+        "source": "https://digital.blb-karlsruhe.de/i3f/v20/2670316/canvas/2530205"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "57f27a2b-ad01-4380-b96c-a55ea3ca2fcf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
