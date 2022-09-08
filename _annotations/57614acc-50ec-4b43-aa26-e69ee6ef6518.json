@@ -4376,6 +4376,36 @@ order: 1
                 "name": "Mela Eckenfels"
             },
             "created": "2022-09-08T03:35:30.364Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "influenza",
+            "creator": {
+                "id": "Mela",
+                "name": "Mela Eckenfels"
+            },
+            "created": "2022-09-08T03:37:07.580Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "1922",
+            "creator": {
+                "id": "Mela",
+                "name": "Mela Eckenfels"
+            },
+            "created": "2022-09-08T03:37:10.319Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "karlsruhe",
+            "creator": {
+                "id": "Mela",
+                "name": "Mela Eckenfels"
+            },
+            "created": "2022-09-08T03:37:13.817Z"
         }
     ],
     "target": {
