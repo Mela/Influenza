@@ -7,14 +7,14 @@ order: 2
     "body": [
         {
             "type": "TextualBody",
-            "value": "Die Verbreitung der Grippe, insbesondere in Karlsruhe. \u2014 7.2.1922 \u2014 Teil 2",
+            "value": "Die Verbreitung der Grippe, insbesondere in Karlsruhe. \u2014 10.2.1922 \u2014 Karlsruher Zeitung \u2014 Teil 2",
             "purpose": "bookmarking",
             "creator": {
                 "id": "Mela",
                 "name": "Mela Eckenfels"
             },
             "created": "2022-09-08T03:36:03.480Z",
-            "modified": "2022-09-08T03:36:50.153Z"
+            "modified": "2022-09-08T03:37:53.369Z"
         },
         {
             "type": "TextualBody",
